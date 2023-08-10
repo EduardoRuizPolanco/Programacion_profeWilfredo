@@ -1,0 +1,41 @@
+#include <iostream>
+#include <conio.h>
+//ERP
+using namespace std;
+int main() {
+
+int a;	
+int numeros[a];	
+int sumatoria;
+
+//Aqui es para ingresar la longitud
+cout<<"Pon la longitud del vector"<<endl;
+cin>>a;
+
+//inicia el prime ciclo for para leer los numeros y se van sumando
+cout<<"Escribe los numeros que tu quiereas"<<endl;
+for(int i=0; i<a; i++){
+cin>>numeros[i];
+sumatoria +=  numeros[i];
+cout<<"La suma actual es de   "<<sumatoria<<endl;
+}
+cout<<"\n";
+
+//este ciclo muestra el Vector
+cout<<"El vector es:"<<endl;
+for(int i=0; i<a; i++){
+cout<<numeros[i]<<"  ";
+}
+cout<<"\nEl vector inverso es:"<<endl;
+for(int i=a-1; i>=0; i--){
+cout<<numeros[i]<<"  ";
+}
+
+
+//Aqui se muestra la sumatoria
+cout<<endl;
+cout<<"La sumatoria del vector seria de: "<<sumatoria;	
+
+getch();
+return 0;
+}
