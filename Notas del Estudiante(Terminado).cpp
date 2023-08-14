@@ -62,6 +62,14 @@ for(int j=0; j<a; j++){
 }
 promedio = suma/a;
 cout<<promedio<<endl<<endl;	
+
+if(promedio>60){
+cout<<"El alumno aprovo"<<endl;
+}
+else{
+cout<<"El alumno reprovo"<<endl;
+}
+	
 break;
 
 
